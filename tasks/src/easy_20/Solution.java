@@ -3,7 +3,7 @@ package easy_20;
 class Solution {
     public boolean isValid(String s) {
         int j = 1;
-        int[] mask = new int[5001];
+        byte[] mask = new byte[5001];
 
         int length = s.length();
         for (int i = 0; i < length; i++) {
